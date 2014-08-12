@@ -22,7 +22,6 @@ public class BasicAnnotationUsage {
 	 */
 	@BeforeClass
 	public static void onCreate(){
-		
 		System.out.println("测试开始");
 	}
 	
@@ -63,7 +62,6 @@ public class BasicAnnotationUsage {
 	public void testSuccess(){
 		System.out.println("测试1");
 		String hello = "Hello";
-		String world = "World";
 		String shanghai = "Shanghai";
 		attributes.put(hello, shanghai);
 		assertTrue("这不是真的！", attributes.get(hello).equals(shanghai));

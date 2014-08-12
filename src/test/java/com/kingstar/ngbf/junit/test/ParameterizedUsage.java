@@ -31,7 +31,6 @@ public class ParameterizedUsage {
 		return Arrays.asList(data);
 	}
 	
-	
 	@Test
 	 public void test() {
 	   System.out.println("城市: " + this.city + "， 人口：" + this.population + "万。");
